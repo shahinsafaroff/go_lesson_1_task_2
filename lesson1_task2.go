@@ -1,8 +1,9 @@
 package main
 
+
 func main() {
-	var balance int32 = 15_000_000.00
-	var transfer int32 = 10_000_000.00
-	total := balance + transfer
+	var balance int32 = 15.00e6
+	var transfer int32 = 10.00e6
+	var total int32 = balance + transfer
 	println(total)
 }
