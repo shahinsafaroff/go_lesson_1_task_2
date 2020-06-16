@@ -1,8 +1,8 @@
 package main
 
 func main() {
-	var balance int32 = 15.00e6
-	var transfer int32 = 10.00e6
-	var total int32 = balance + transfer
+	var balance int64 = 15.00e8
+	var transfer int64 = 10.00e8
+	var total int64 = balance + transfer
 	println(total)
 }
